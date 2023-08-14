@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsecive Admin Dashboard Using HTML CSS & JavaScript</title>
+    <!-- Stylesheet  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- MARERIAL ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <!-- ---------- ASIDE START ---------- -->
+        <!-- khu vực cho bên lề (aside). -->
+        <aside>
+            <div class="top">  
+                <div class="logo">
+                <img class="img_logo" src="./images/IsabelMercado.png">
+                <h2 class="text_logo">Isabel <span class="danger"> Mercado </span></h2>
+            </div>
+            <div class="close" id="close-btn" href="">
+                <span class="material-icons-sharp">close</span>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <a href="#">
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="#" class="active">
+                <span class="material-icons-sharp">person</span>
+                <h3>Customer</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">confirmation_number</span>                
+                <h3>Ticket</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">bed</span>
+                <h3>Bed</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">summarize</span>
+                <h3>Report</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">settings</span>
+                <h3>Setting</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+            </a>
+        </div>
+
+        </aside>
+
+        <!-- ---------- ASIDE END ---------- -->
+
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="column">
+                    <span class="material-icons-sharp">analytics</span>  
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Doanh thu hôm nay</h3>
+                            <h1>10,000,000VND</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Một ngày qua</small>
+                </div>
+            </div>
+
+            <div class="insights">
+                <div class="column">
+
+                    <span class="material-icons-sharp">bar_chart</span>  
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Doanh thu tháng qua</h3>
+                            <h1>150,000,000VND</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>61%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Một tháng qua</small>
+                </div>
+            </div>
+            <!-- END OF DOANH THU THÁNG NÀY -->
+
+
+            <div class="insights">
+                <div class="column">
+
+                    <span class="material-icons-sharp">show_chart</span>  
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Doanh thu tháng trước</h3>
+                            <h1>300,000,000VND</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>91%</p>
+                            </div>
+                        </div>
+                    </div>
+                <small class="text-muted">Một tháng trước</small>
+                <!-- END OF DOANH THU THÁNG TRƯỚC -->
+            </div>
+        
+        </main>
+
+    </div>
+    
+</body>
+</html>
