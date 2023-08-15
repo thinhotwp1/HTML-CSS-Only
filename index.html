@@ -28,31 +28,31 @@
         <div class="sidebar">
             <a href="#">
                 <span class="material-icons-sharp">grid_view</span>
-                <h3>Dashboard</h3>
+                <h3>Tổng quan</h3>
             </a>
             <a href="#" class="active">
                 <span class="material-icons-sharp">person</span>
-                <h3>Customer</h3>
+                <h3>Khách hàng</h3>
             </a>
             <a href="#">
                 <span class="material-icons-sharp">confirmation_number</span>                
-                <h3>Ticket</h3>
+                <h3>Vé</h3>
             </a>
             <a href="#">
                 <span class="material-icons-sharp">bed</span>
-                <h3>Bed</h3>
+                <h3>Giường ngủ</h3>
             </a>
             <a href="#">
                 <span class="material-icons-sharp">summarize</span>
-                <h3>Report</h3>
+                <h3>Báo cáo</h3>
             </a>
             <a href="#">
                 <span class="material-icons-sharp">settings</span>
-                <h3>Setting</h3>
+                <h3>Cài đặt</h3>
             </a>
             <a href="#">
                 <span class="material-icons-sharp">logout</span>
-                <h3>Logout</h3>
+                <h3>Đăng xuất</h3>
             </a>
         </div>
 
@@ -67,13 +67,15 @@
                 <input type="date">
             </div>
 
+
+            <!-- =========== INSIGHTS START =========== -->
             <div class="insights">
-                <div class="column">
+                <div class="column1">
                     <span class="material-icons-sharp">analytics</span>  
                     <div class="middle">
                         <div class="left">
                             <h3>Doanh thu hôm nay</h3>
-                            <h1>10,000,000VND</h1>
+                            <h1>100,000,000VND</h1>
                         </div>
                         <div class="progress">
                             <svg>
@@ -89,7 +91,7 @@
             </div>
 
             <div class="insights">
-                <div class="column">
+                <div class="column2">
 
                     <span class="material-icons-sharp">bar_chart</span>  
                     <div class="middle">
@@ -113,7 +115,7 @@
 
 
             <div class="insights">
-                <div class="column">
+                <div class="column3">
 
                     <span class="material-icons-sharp">show_chart</span>  
                     <div class="middle">
@@ -130,10 +132,51 @@
                             </div>
                         </div>
                     </div>
-                <small class="text-muted">Một tháng trước</small>
+                    <small class="text-muted">Một tháng trước</small>
+                </div>
                 <!-- END OF DOANH THU THÁNG TRƯỚC -->
             </div>
-        
+            <!-- =========== INSIGHTS END =========== -->
+
+
+            <div class="recent-orders">
+                <h2>Đơn hàng gần đây</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Khách hàng</th>
+                            <th>Số điện thoại</th>
+                            <th>Loại vé</th>
+                            <th>Mã giường</th>
+                            <th>Số tiền</th>
+                            <th>Trạng thái</th>
+                            <th>Ngày hết hạn</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <td>Vũ Bảo Châu</td>
+                        <td>0776464102</td>
+                        <td>Vé 1 tháng</td>
+                        <td>Giường 5</td>
+                        <td>1,000,000 VND</td>
+                        <td class="success">Đã thanh toán</td>
+                        <td>15/09/2023</td>
+                        <td class="primary">Details</td>
+                    </tbody>
+                    <tbody>
+                        <td>Lê Duy Thịnh</td>
+                        <td>0923001270</td>
+                        <td>Vé 3 tháng</td>
+                        <td>Giường 4</td>
+                        <td>3,000,000 VND</td>
+                        <td class="warning">Chưa thanh toán</td>
+                        <td></td>
+                        <td class="primary">Details</td>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+             </div>
+        42:37
         </main>
 
     </div>
